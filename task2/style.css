@@ -1,0 +1,97 @@
+
+body{
+    color: rgb(21, 206, 175);
+}
+.parent{
+    width: 100%;
+    height: fit-content;
+    background: linear-gradient(to right, #03092e, #03092e );
+    margin-top: 5%;
+    font-family: "Opne Sans";
+    
+    
+
+}
+h1{
+   
+    width: 100%;
+    text-align: center;
+    padding-top: 3%;
+    font-weight: bold;
+}
+
+.heading{
+    width: 100%;
+    height: 50px;
+}
+ul{
+    margin-left: 80%;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: x-large;
+    width: 12%;
+    font-weight: bold;
+}
+
+a{
+    color: rgb(21, 206, 175);
+    display: inline-block;
+   row-gap: 3%;
+    width: 10%;
+    text-align: center;
+
+}
+
+a:hover{
+    transform: scale(1.1);
+
+}
+
+
+.myimg{
+    border: 2px solid black;
+    border-radius: 10%;
+    margin: 4% 0% 5% 2%;
+}
+
+.intro{
+    margin: 2% 0% 0% 2%;
+    display: flex;
+}
+.personalinfo{
+    margin: 5% 0% 0% 7%;
+    height: 350px;
+}
+
+.personalinfo i{
+    gap: 70px;
+    width: 10%;
+   margin-top: 3%;
+   font-size: xx-large;
+}
+
+.resume{
+    font-size: large;
+    text-decoration:underline;
+    width: 30%;
+    
+}
+
+ol{
+    width: 50%;
+    list-style: none;
+    color:  rgb(21, 206, 175);
+   padding-right: 40%;
+   padding-left: 1%;
+   font-size: medium;
+   height: 70px;
+   opacity: 0;
+
+   
+ 
+}
+
+ol:hover {
+    opacity: 1;
+}
